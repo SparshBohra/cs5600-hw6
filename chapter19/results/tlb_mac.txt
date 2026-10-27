@@ -1,0 +1,16 @@
+# host=MacBook-Air.local uname=Darwin MacBook-Air.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132 arm64
+# pagesize=16384 ncpu=10
+# cpu0 pin: linux uses taskset + sched_setaffinity
+pages=1 trials=20000000 pagesize=16384 ns_per_access=2.957 sink=582894464
+pages=2 trials=10000000 pagesize=16384 ns_per_access=1.484 sink=306447232
+pages=4 trials=5000000 pagesize=16384 ns_per_access=1.144 sink=-1979260032
+pages=8 trials=2500000 pagesize=16384 ns_per_access=1.089 sink=-974630016
+pages=16 trials=1250000 pagesize=16384 ns_per_access=4.468 sink=1675168640
+pages=32 trials=625000 pagesize=16384 ns_per_access=5.523 sink=852584320
+pages=64 trials=312500 pagesize=16384 ns_per_access=5.866 sink=-1706191488
+pages=128 trials=156250 pagesize=16384 ns_per_access=5.950 sink=-838095744
+pages=256 trials=78125 pagesize=16384 ns_per_access=5.736 sink=-404047872
+pages=512 trials=39062 pagesize=16384 ns_per_access=5.982 sink=-197024256
+pages=1024 trials=19531 pagesize=16384 ns_per_access=6.258 sink=2063971328
+pages=2048 trials=9765 pagesize=16384 ns_per_access=6.458 sink=-1110499328
+pages=4096 trials=5000 pagesize=16384 ns_per_access=5.869 sink=-308887552

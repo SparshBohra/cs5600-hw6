@@ -1,0 +1,16 @@
+# host=ubuntu-cs5600 uname=Linux ubuntu-cs5600 7.0.0-38-generic #38~24.04.4-Ubuntu SMP PREEMPT_DYNAMIC Mon Sep 14 17:12:37 UTC 2 aarch64 aarch64 aarch64 GNU/Linux
+# pagesize=4096 ncpu=4
+# cpu0 pin: linux uses taskset + sched_setaffinity
+pages=1 trials=20000000 pagesize=4096 ns_per_access=2.043 sink=582894464
+pages=2 trials=10000000 pagesize=4096 ns_per_access=1.435 sink=306447232
+pages=4 trials=5000000 pagesize=4096 ns_per_access=2.244 sink=-1979260032
+pages=8 trials=2500000 pagesize=4096 ns_per_access=1.850 sink=-974630016
+pages=16 trials=1250000 pagesize=4096 ns_per_access=2.156 sink=1675168640
+pages=32 trials=625000 pagesize=4096 ns_per_access=1.927 sink=852584320
+pages=64 trials=312500 pagesize=4096 ns_per_access=3.225 sink=-1706191488
+pages=128 trials=156250 pagesize=4096 ns_per_access=3.263 sink=-838095744
+pages=256 trials=78125 pagesize=4096 ns_per_access=2.573 sink=-404047872
+pages=512 trials=39062 pagesize=4096 ns_per_access=2.359 sink=-197024256
+pages=1024 trials=19531 pagesize=4096 ns_per_access=2.545 sink=2063971328
+pages=2048 trials=9765 pagesize=4096 ns_per_access=2.535 sink=-1110499328
+pages=4096 trials=5000 pagesize=4096 ns_per_access=6.234 sink=-308887552
